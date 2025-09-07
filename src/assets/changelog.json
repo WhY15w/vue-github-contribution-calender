@@ -1,0 +1,1436 @@
+[
+  {
+    "hash": "583e5d5",
+    "message": "fix: 修复滚动条滑块样式，移除多余的零值",
+    "author": "HurryWang",
+    "date": "2025-09-06 00:43:05 +0800"
+  },
+  {
+    "hash": "593e977",
+    "message": "feat: 调整活动图表组件的底部间距, 优化样式显示, 更新日志视图的分页大小至 10, 并优化日期点击提示的持续时间",
+    "author": "HurryWang",
+    "date": "2025-09-06 00:41:32 +0800"
+  },
+  {
+    "hash": "2df8c75",
+    "message": "fix: 更新 vite 依赖版本至 ^6.3.5",
+    "author": "HurryWang",
+    "date": "2025-09-05 23:54:41 +0800"
+  },
+  {
+    "hash": "5678cd1",
+    "message": "fix: 优化活动图表组件，添加滚动功能并调整样式",
+    "author": "HurryWang",
+    "date": "2025-09-04 23:46:54 +0800"
+  },
+  {
+    "hash": "9972ddb",
+    "message": "feat: 更新活动图表组件，优化数据处理逻辑并添加日期点击事件",
+    "author": "HurryWang",
+    "date": "2025-09-04 23:22:28 +0800"
+  },
+  {
+    "hash": "08a7381",
+    "message": "feat: 添加活动图表组件，生成并展示过去一年的贡献数据",
+    "author": "HurryWang",
+    "date": "2025-09-04 00:38:19 +0800"
+  },
+  {
+    "hash": "d46c68e",
+    "message": "fix: 在公告组件中添加日期范围判断，优化公告显示逻辑",
+    "author": "HurryWang",
+    "date": "2025-09-02 23:50:54 +0800"
+  },
+  {
+    "hash": "afcc86e",
+    "message": "feat: 添加公告打开处理函数，优化弹窗公告的打开动画",
+    "author": "HurryWang",
+    "date": "2025-09-02 23:26:34 +0800"
+  },
+  {
+    "hash": "56e3739",
+    "message": "feat: 调整公告内容显示高度，优化公告编辑框样式，更新全局配置获取逻辑",
+    "author": "HurryWang",
+    "date": "2025-09-01 23:12:12 +0800"
+  },
+  {
+    "hash": "19e50d7",
+    "message": "feat: 分离公告显示判断逻辑, 增加公告预览",
+    "author": "HurryWang",
+    "date": "2025-08-31 23:37:01 +0800"
+  },
+  {
+    "hash": "1d9922d",
+    "message": "feat: 重构公告系统，优化公告显示逻辑，添加全局配置存储，移除冗余代码",
+    "author": "HurryWang",
+    "date": "2025-08-31 23:17:36 +0800"
+  },
+  {
+    "hash": "7d2145a",
+    "message": "feat: 更新公告系统，添加全局公告配置功能，优化相关接口和组件",
+    "author": "HurryWang",
+    "date": "2025-08-30 23:25:18 +0800"
+  },
+  {
+    "hash": "4a3b88a",
+    "message": "refactor: 移除不必要的参数，优化parseLanzouUrl函数逻辑，增强代码可读性",
+    "author": "HurryWang",
+    "date": "2025-08-23 18:59:06 +0800"
+  },
+  {
+    "hash": "5e94160",
+    "message": "refactor: 将路由注册逻辑移至单独的index.js文件，简化app.js结构",
+    "author": "HurryWang",
+    "date": "2025-08-23 11:19:42 +0800"
+  },
+  {
+    "hash": "ff9f489",
+    "message": "feat: 添加自定义动画效果并更新预告图片组件，增加开源链接按钮",
+    "author": "HurryWang",
+    "date": "2025-08-22 22:55:13 +0800"
+  },
+  {
+    "hash": "240692c",
+    "message": "fix: 更新广告路由标题为“赞助广告”，优化服务器信息展示中的换行处理",
+    "author": "HurryWang",
+    "date": "2025-08-22 10:46:59 +0800"
+  },
+  {
+    "hash": "45930d2",
+    "message": "feat: 更新广告页面标题和描述，优化CommonLayout组件中的关于按钮交互效果",
+    "author": "HurryWang",
+    "date": "2025-08-21 11:39:43 +0800"
+  },
+  {
+    "hash": "9ecd332",
+    "message": "优化项目README.md文档结构和内容 (#1)",
+    "author": "Copilot",
+    "date": "2025-08-20 19:02:36 +0800"
+  },
+  {
+    "hash": "06913dc",
+    "message": "fix: 更新无效链接提示信息",
+    "author": "HurryWang",
+    "date": "2025-08-20 14:39:22 +0800"
+  },
+  {
+    "hash": "64ae551",
+    "message": "fix: 更正广告说明文本的位置, 使其和广告共同显示",
+    "author": "HurryWang",
+    "date": "2025-08-20 12:54:11 +0800"
+  },
+  {
+    "hash": "8dcab5d",
+    "message": "feat: 优化广告卡片展示，添加广告说明文本和交互效果",
+    "author": "HurryWang",
+    "date": "2025-08-20 12:47:20 +0800"
+  },
+  {
+    "hash": "f20e7cb",
+    "message": "feat: 添加随机广告获取功能，优化广告展示组件",
+    "author": "HurryWang",
+    "date": "2025-08-19 22:41:39 +0800"
+  },
+  {
+    "hash": "bd2a5a3",
+    "message": "fix: 修复bilibili图片http链接为https",
+    "author": "HurryWang",
+    "date": "2025-08-18 23:58:06 +0800"
+  },
+  {
+    "hash": "5f0f7d8",
+    "message": "feat: 添加 View Transition API 支持，优化页面过渡效果",
+    "author": "HurryWang",
+    "date": "2025-08-18 23:41:52 +0800"
+  },
+  {
+    "hash": "f34dacf",
+    "message": "feat: 优化日期时间选择器组件，调整Popover结构，增强小时和分钟选择的可视化效果",
+    "author": "HurryWang",
+    "date": "2025-08-18 17:53:15 +0800"
+  },
+  {
+    "hash": "5c3f06e",
+    "message": "feat: 添加自适应缩放功能，优化页面在不同屏幕宽度下的显示效果",
+    "author": "HurryWang",
+    "date": "2025-08-18 09:47:28 +0800"
+  },
+  {
+    "hash": "e6fe916",
+    "message": "feat: 添加Unity服务器状态查询功能，重构相关路由和组件",
+    "author": "HurryWang",
+    "date": "2025-08-17 23:32:54 +0800"
+  },
+  {
+    "hash": "13fbbfc",
+    "message": "feat: 更新ad dialog样式，优化ad table显示",
+    "author": "HurryWang",
+    "date": "2025-08-17 14:20:53 +0800"
+  },
+  {
+    "hash": "42602e1",
+    "message": "feat: 添加日期时间选择器组件，支持24小时制和快捷选择功能",
+    "author": "HurryWang",
+    "date": "2025-08-17 10:41:28 +0800"
+  },
+  {
+    "hash": "1b9014a",
+    "message": "feat: 更新广告查询接口，支持状态过滤，修改投放广告card的按钮样式",
+    "author": "HurryWang",
+    "date": "2025-08-16 22:59:39 +0800"
+  },
+  {
+    "hash": "88d7826",
+    "message": "feat: 更新README，添加新链接和图片，优化信息展示",
+    "author": "HurryWang",
+    "date": "2025-08-16 21:58:46 +0800"
+  },
+  {
+    "hash": "bc34e07",
+    "message": "feat: ad接口权限控制",
+    "author": "HurryWang",
+    "date": "2025-08-16 16:24:04 +0800"
+  },
+  {
+    "hash": "832d512",
+    "message": "feat: 更新赞助广告标题和描述，增强用户理解",
+    "author": "HurryWang",
+    "date": "2025-08-16 10:01:13 +0800"
+  },
+  {
+    "hash": "bed77a5",
+    "message": "feat: 去除广告链接前后空格，优化邮件发送日志输出",
+    "author": "HurryWang",
+    "date": "2025-08-15 22:33:44 +0800"
+  },
+  {
+    "hash": "bae726f",
+    "message": "feat: 添加广告点击量统计功能, 为statisticModel做了索引优化",
+    "author": "HurryWang",
+    "date": "2025-08-15 22:16:48 +0800"
+  },
+  {
+    "hash": "ada7302",
+    "message": "feat: 添加广告预览组件，优化广告管理界面",
+    "author": "HurryWang",
+    "date": "2025-08-15 13:53:41 +0800"
+  },
+  {
+    "hash": "73f2d3b",
+    "message": "refactor: 移除不必要的open事件处理，简化组件逻辑",
+    "author": "HurryWang",
+    "date": "2025-08-15 09:58:47 +0800"
+  },
+  {
+    "hash": "a2d80b8",
+    "message": "fix: 修复跨页面锚点定位问题",
+    "author": "HurryWang",
+    "date": "2025-08-15 08:23:02 +0800"
+  },
+  {
+    "hash": "e2c0459",
+    "message": "feat: 拆分关于页面组件，添加广告投放介绍",
+    "author": "HurryWang",
+    "date": "2025-08-15 00:05:37 +0800"
+  },
+  {
+    "hash": "3537b64",
+    "message": "fix: 优化徽章样式绑定方式，解决 Tailwind 动态类名编译问题",
+    "author": "HurryWang",
+    "date": "2025-08-14 09:19:23 +0800"
+  },
+  {
+    "hash": "ec68f62",
+    "message": "fix: 更新window.open方法，支持每次调用的上报控制，添加options参数以控制上报标志",
+    "author": "HurryWang",
+    "date": "2025-08-14 08:49:50 +0800"
+  },
+  {
+    "hash": "ebd8704",
+    "message": "feat: 更新赛尔号Unity链接，修改为外部网址并设置为新窗口打开",
+    "author": "HurryWang",
+    "date": "2025-08-14 07:50:38 +0800"
+  },
+  {
+    "hash": "5bdc23f",
+    "message": "feat: 更新广告管理界面，调整按钮文本和导航配置，优化外部链接上报处理",
+    "author": "HurryWang",
+    "date": "2025-08-14 07:28:42 +0800"
+  },
+  {
+    "hash": "f836ad2",
+    "message": "feat: 后台添加广告管理功能，包括广告列表、添加和编辑广告",
+    "author": "HurryWang",
+    "date": "2025-08-13 23:49:21 +0800"
+  },
+  {
+    "hash": "10a6508",
+    "message": "feat: 更新导航配置，调整更新日志组件以显示提交编号",
+    "author": "HurryWang",
+    "date": "2025-08-12 23:43:29 +0800"
+  },
+  {
+    "hash": "8a9c0a6",
+    "message": "feat: 添加一些图标组件并更新关于页面以包含社交链接",
+    "author": "HurryWang",
+    "date": "2025-08-12 23:20:41 +0800"
+  },
+  {
+    "hash": "0316775",
+    "message": "feat: 添加导航配置，更新关于页面和首页以使用新导航数据",
+    "author": "HurryWang",
+    "date": "2025-08-12 22:00:42 +0800"
+  },
+  {
+    "hash": "e814b27",
+    "message": "feat: 优化首页标题样式，调整关于按钮布局",
+    "author": "HurryWang",
+    "date": "2025-08-12 09:17:04 +0800"
+  },
+  {
+    "hash": "7457773",
+    "message": "feat: 添加关于页面及导航链接",
+    "author": "HurryWang",
+    "date": "2025-08-11 23:59:36 +0800"
+  },
+  {
+    "hash": "33c961f",
+    "message": "feat: 更新lucide-vue-next依赖至0.539.0，并优化首页标题样式",
+    "author": "HurryWang",
+    "date": "2025-08-11 20:11:55 +0800"
+  },
+  {
+    "hash": "32c1e3f",
+    "message": "feat(ad): 添加广告模块，包括广告模型、路由和前端展示",
+    "author": "HurryWang",
+    "date": "2025-08-10 23:36:33 +0800"
+  },
+  {
+    "hash": "80774a6",
+    "message": "feat(download): 支持自定义文件扩展名下载",
+    "author": "HurryWang",
+    "date": "2025-08-09 23:27:06 +0800"
+  },
+  {
+    "hash": "b5e0067",
+    "message": "feat: 在QQ交流群按钮上添加广告标识AD",
+    "author": "HurryWang",
+    "date": "2025-08-09 22:50:21 +0800"
+  },
+  {
+    "hash": "b01721f",
+    "message": "feat: 战队资源提醒界面适配移动端",
+    "author": "HurryWang",
+    "date": "2025-08-09 12:43:57 +0800"
+  },
+  {
+    "hash": "65c061a",
+    "message": "feat(title): router中动态修改页面标题",
+    "author": "HurryWang",
+    "date": "2025-08-09 12:01:34 +0800"
+  },
+  {
+    "hash": "fdb8e26",
+    "message": "feat(mail): mailAlert适配sendBulkMailSingle",
+    "author": "HurryWang",
+    "date": "2025-08-08 23:49:01 +0800"
+  },
+  {
+    "hash": "92d2f9e",
+    "message": "feat(mail): 重构邮件发送逻辑，支持多个发送账户并优化发送参数",
+    "author": "HurryWang",
+    "date": "2025-08-08 23:30:56 +0800"
+  },
+  {
+    "hash": "9ac62af",
+    "message": "feat(mail): 调整群发邮件的并发设置为1，并添加发送进度日志",
+    "author": "HurryWang",
+    "date": "2025-08-08 10:57:55 +0800"
+  },
+  {
+    "hash": "de3e180",
+    "message": "feat(middleware): 添加检查维护状态的中间件以处理停服通知",
+    "author": "HurryWang",
+    "date": "2025-08-08 10:57:49 +0800"
+  },
+  {
+    "hash": "8f6bcee",
+    "message": "fix(Cj.vue): 修复移动端dialog文本溢出",
+    "author": "HurryWang",
+    "date": "2025-08-08 08:24:34 +0800"
+  },
+  {
+    "hash": "bfe8d81",
+    "message": "feat(unity): 添加实验性的Unity页面及路由配置",
+    "author": "HurryWang",
+    "date": "2025-08-07 23:43:26 +0800"
+  },
+  {
+    "hash": "fb1faef",
+    "message": "fix: 修复清理本地无效插件触发通知订阅用户的bug",
+    "author": "HurryWang",
+    "date": "2025-08-07 08:53:40 +0800"
+  },
+  {
+    "hash": "28bf6e5",
+    "message": "feat(plugin): 插件中心同步逻辑中清理本地多余文件, 防止冗余",
+    "author": "HurryWang",
+    "date": "2025-08-07 08:50:03 +0800"
+  },
+  {
+    "hash": "b56c9b0",
+    "message": "feat(cardKey): 支持通过请求体传递用户ID以绑定卡密到用户和战队",
+    "author": "HurryWang",
+    "date": "2025-08-06 12:35:02 +0800"
+  },
+  {
+    "hash": "a84946c",
+    "message": "feat(teamNotify): 增强卡密系统和战队通知功能",
+    "author": "HurryWang",
+    "date": "2025-08-06 12:03:15 +0800"
+  },
+  {
+    "hash": "55deb4b",
+    "message": "feat(textarea): 添加Textarea组件及更新@vueuse/core依赖至13.6.0",
+    "author": "HurryWang",
+    "date": "2025-08-04 23:18:59 +0800"
+  },
+  {
+    "hash": "0f6c83a",
+    "message": "feat(cardKey): 添加卡密管理功能",
+    "author": "HurryWang",
+    "date": "2025-08-04 23:18:46 +0800"
+  },
+  {
+    "hash": "b017904",
+    "message": "feat(team): 更新战队资源提醒定时任务，周五9:50-15:00不执行, 修复时间获取逻辑并简化错误日志输出",
+    "author": "HurryWang",
+    "date": "2025-08-04 14:13:45 +0800"
+  },
+  {
+    "hash": "df663f1",
+    "message": "feat(team): 优化战队资源提醒定时任务，添加周五9:50-15:00排除时间逻辑",
+    "author": "HurryWang",
+    "date": "2025-08-04 14:04:30 +0800"
+  },
+  {
+    "hash": "a2f6c1f",
+    "message": "feat(team): 修改战队资源提醒单用户可订阅多个战队, 添加前端相关交互",
+    "author": "HurryWang",
+    "date": "2025-08-04 13:59:33 +0800"
+  },
+  {
+    "hash": "83e189b",
+    "message": "feat(team): 更新定时任务规则，添加战队资源提醒邮件发送逻辑",
+    "author": "HurryWang",
+    "date": "2025-08-04 10:55:39 +0800"
+  },
+  {
+    "hash": "2ed3c4c",
+    "message": "style: format",
+    "author": "HurryWang",
+    "date": "2025-08-03 23:23:11 +0800"
+  },
+  {
+    "hash": "23b11e4",
+    "message": "feat(team): 后端完善战队资源提醒功能的定时任务部分, 拆分前端战队提醒功能为独立组件",
+    "author": "HurryWang",
+    "date": "2025-08-03 23:19:20 +0800"
+  },
+  {
+    "hash": "a9005e2",
+    "message": "feat(team): 添加战队提醒功能(定制)，支持管理员后台设置提醒阈值和战队ID",
+    "author": "HurryWang",
+    "date": "2025-08-02 22:53:26 +0800"
+  },
+  {
+    "hash": "0e851ba",
+    "message": "fix(deploy): 修复部署脚本顺序，确保正确执行各项任务",
+    "author": "HurryWang",
+    "date": "2025-08-02 22:05:39 +0800"
+  },
+  {
+    "hash": "29e4a73",
+    "message": "feat(monster): 添加精灵信息同步功能，优化用户信息展示",
+    "author": "HurryWang",
+    "date": "2025-08-02 15:09:02 +0800"
+  },
+  {
+    "hash": "459d6db",
+    "message": "feat(query): 添加战队信息、米米号面板和玩家在线状态查询功能，优化用户信息展示",
+    "author": "HurryWang",
+    "date": "2025-08-01 22:57:26 +0800"
+  },
+  {
+    "hash": "f0cf74e",
+    "message": "feat(achievement): 添加成就信息同步功能，优化用户称号展示",
+    "author": "HurryWang",
+    "date": "2025-08-01 14:56:51 +0800"
+  },
+  {
+    "hash": "855d4ba",
+    "message": "feat(team): 添加战队信息查询功能，优化用户信息展示与定时任务管理界面",
+    "author": "HurryWang",
+    "date": "2025-07-30 23:22:41 +0800"
+  },
+  {
+    "hash": "a8a5db6",
+    "message": "feat(config): 重构Live2D版本管理与定时任务管理界面，优化交互体验",
+    "author": "HurryWang",
+    "date": "2025-07-29 14:10:21 +0800"
+  },
+  {
+    "hash": "746f4df",
+    "message": "feat(jobs): 添加动态任务触发路由及任务状态接口，优化定时任务逻辑",
+    "author": "HurryWang",
+    "date": "2025-07-29 13:33:50 +0800"
+  },
+  {
+    "hash": "596a659",
+    "message": "feat(userInfo): 优化用户信息展示与读取逻辑. 将查询米米号在线和具体信息接口分离",
+    "author": "HurryWang",
+    "date": "2025-07-28 23:05:13 +0800"
+  },
+  {
+    "hash": "4642318",
+    "message": "feat(online): 增加巅峰之战信息展示与查询功能",
+    "author": "HurryWang",
+    "date": "2025-07-28 10:04:40 +0800"
+  },
+  {
+    "hash": "377a3bf",
+    "message": "feat(userInfo): 优化用户信息展示，增加基础信息、装备外观等模块，尝试优化seo",
+    "author": "HurryWang",
+    "date": "2025-07-26 19:56:41 +0800"
+  },
+  {
+    "hash": "0064404",
+    "message": "feat(cloth): 添加后端套装数据同步任务入库与前端套装展示功能",
+    "author": "HurryWang",
+    "date": "2025-07-25 23:14:15 +0800"
+  },
+  {
+    "hash": "f748b40",
+    "message": "feat(userStatus): 添加后台用户状态封禁取消功能及前端交互",
+    "author": "HurryWang",
+    "date": "2025-07-22 14:05:51 +0800"
+  },
+  {
+    "hash": "a798fcb",
+    "message": "feat(userInfo): 添加玩家详细信息查看功能",
+    "author": "HurryWang",
+    "date": "2025-07-21 22:51:33 +0800"
+  },
+  {
+    "hash": "0441c49",
+    "message": "fix(config): 更新Vercel重写规则，修复vercel.json所在位置(坑人)",
+    "author": "HurryWang",
+    "date": "2025-07-20 10:01:00 +0800"
+  },
+  {
+    "hash": "373f0c9",
+    "message": "fix(config): 移除后端冗余日志并添加Vercel重写规则, 修复SPA路由刷新404问题",
+    "author": "HurryWang",
+    "date": "2025-07-19 22:09:17 +0800"
+  },
+  {
+    "hash": "8b1c13f",
+    "message": "feat(Preview): 引入Jimp库压缩下周预告图片体积",
+    "author": "HurryWang",
+    "date": "2025-07-19 13:33:24 +0800"
+  },
+  {
+    "hash": "29f6b44",
+    "message": "feat(metadata): 更新首页SEO描述和关键词",
+    "author": "HurryWang",
+    "date": "2025-07-18 09:15:54 +0800"
+  },
+  {
+    "hash": "bae965f",
+    "message": "feat(userTable): 用户表增加序号, 更新依赖, 移除无用文件",
+    "author": "HurryWang",
+    "date": "2025-07-18 09:00:03 +0800"
+  },
+  {
+    "hash": "c2ec9e3",
+    "message": "feat(config): 优化参数配置界面，增加Live2D版本设置卡片",
+    "author": "HurryWang",
+    "date": "2025-07-16 14:37:30 +0800"
+  },
+  {
+    "hash": "48afb3d",
+    "message": "feat(config): 优化Live2D缓存策略, 减少负担",
+    "author": "HurryWang",
+    "date": "2025-07-15 22:57:51 +0800"
+  },
+  {
+    "hash": "f8b3875",
+    "message": "fix(live2d): 修复live2d相关文件引入路径问题",
+    "author": "HurryWang",
+    "date": "2025-07-14 22:13:46 +0800"
+  },
+  {
+    "hash": "9a8033b",
+    "message": "refactor(frontend): 提取 SharePopover 组件并添加 HomeView 中邮件订阅的红点提醒",
+    "author": "HurryWang",
+    "date": "2025-07-13 22:27:48 +0800"
+  },
+  {
+    "hash": "fa2c570",
+    "message": "feat(icon): Replace SVG paths with PNG image in eo.vue",
+    "author": "HurryWang",
+    "date": "2025-07-13 18:25:54 +0800"
+  },
+  {
+    "hash": "6ccc2d9",
+    "message": "(backend): 优化IP处理逻辑，修复统计接口",
+    "author": "HurryWang",
+    "date": "2025-07-13 17:37:46 +0800"
+  },
+  {
+    "hash": "d2e5c13",
+    "message": "feat(frontend): 添加分享网址功能及优化首页交互",
+    "author": "HurryWang",
+    "date": "2025-07-12 23:37:45 +0800"
+  },
+  {
+    "hash": "847e422",
+    "message": "feat(live2d):本地化live2d所需的js,取消cdn引入",
+    "author": "HurryWang",
+    "date": "2025-07-12 11:19:43 +0800"
+  },
+  {
+    "hash": "662537f",
+    "message": "fix(Preview): 增加获取预览图接口的超时时间, 优化live2d模型打包为vite",
+    "author": "HurryWang",
+    "date": "2025-07-04 13:11:13 +0800"
+  },
+  {
+    "hash": "d123206",
+    "message": "feat(nono): 分离live2d为单独composable, 为nono添加交互动作和消息",
+    "author": "HurryWang",
+    "date": "2025-07-02 10:08:21 +0800"
+  },
+  {
+    "hash": "ea704c2",
+    "message": "feat(frontend): 添加live2d的nono",
+    "author": "HurryWang",
+    "date": "2025-07-01 12:50:17 +0800"
+  },
+  {
+    "hash": "63176c0",
+    "message": "feat(frontend): 增强底部版权信息及交互效果",
+    "author": "HurryWang",
+    "date": "2025-06-29 11:05:09 +0800"
+  },
+  {
+    "hash": "45a736f",
+    "message": "feat(frontend): 扩大首页容器宽度至4xl",
+    "author": "HurryWang",
+    "date": "2025-06-29 10:21:11 +0800"
+  },
+  {
+    "hash": "29c0ff0",
+    "message": "feat(backend/frontend): 新增获取MW手册公告信息功能",
+    "author": "HurryWang",
+    "date": "2025-06-27 22:43:31 +0800"
+  },
+  {
+    "hash": "cf7d321",
+    "message": "feat(frontend): 添加节流函数优化用户查询逻辑及交互体验",
+    "author": "HurryWang",
+    "date": "2025-06-26 23:24:34 +0800"
+  },
+  {
+    "hash": "6d9afe4",
+    "message": "feat(backend): 增加getUserOnlineStatus超时设置",
+    "author": "HurryWang",
+    "date": "2025-06-24 23:12:38 +0800"
+  },
+  {
+    "hash": "ab657b2",
+    "message": "feat(frontend): 添加页面访问和事件统计埋点上报方法及优化更新信息提示",
+    "author": "HurryWang",
+    "date": "2025-06-23 15:15:02 +0800"
+  },
+  {
+    "hash": "dd3af06",
+    "message": "feat(backend): 增加正则转义函数优化API路径模糊匹配",
+    "author": "HurryWang",
+    "date": "2025-06-21 22:21:35 +0800"
+  },
+  {
+    "hash": "0d24f0c",
+    "message": "feat(frontend): 添加edgeone部署token及修复ApiDetailCard组件未引入dayjs的问题",
+    "author": "HurryWang",
+    "date": "2025-06-21 16:18:23 +0800"
+  },
+  {
+    "hash": "4194395",
+    "message": "feat: 增加API详情卡片及优化日志查询逻辑",
+    "author": "HurryWang",
+    "date": "2025-06-21 16:10:00 +0800"
+  },
+  {
+    "hash": "7f63692",
+    "message": "style: format格式",
+    "author": "HurryWang",
+    "date": "2025-06-20 23:11:43 +0800"
+  },
+  {
+    "hash": "8a15064",
+    "message": "feat(backend/frontend): 更新白名单及打包自动部署到腾讯云edgeone pages",
+    "author": "HurryWang",
+    "date": "2025-06-20 23:11:15 +0800"
+  },
+  {
+    "hash": "3301b0e",
+    "message": "feat(backend/frontend): 新增指令中心和插件中心获取筛选选项接口及前端调用逻辑",
+    "author": "HurryWang",
+    "date": "2025-06-19 14:36:47 +0800"
+  },
+  {
+    "hash": "499703f",
+    "message": "feat(frontend): 优化搜索重置逻辑及标签内容更新",
+    "author": "HurryWang",
+    "date": "2025-06-19 14:14:04 +0800"
+  },
+  {
+    "hash": "3b67bdb",
+    "message": "feat(backend): 增加插件路由及优化定时任务规则",
+    "author": "HurryWang",
+    "date": "2025-06-18 15:05:58 +0800"
+  },
+  {
+    "hash": "f19236c",
+    "message": "feat(backend): 增加本地缺失插件检查与补全下载功能",
+    "author": "HurryWang",
+    "date": "2025-06-18 15:05:51 +0800"
+  },
+  {
+    "hash": "c470b45",
+    "message": "fix(backend): 替换getXmInfo错误处理为日志输出",
+    "author": "HurryWang",
+    "date": "2025-06-18 14:35:14 +0800"
+  },
+  {
+    "hash": "269a2b9",
+    "message": "feat(backend): 添加插件下载信息字段type",
+    "author": "HurryWang",
+    "date": "2025-06-17 22:25:59 +0800"
+  },
+  {
+    "hash": "149ea1f",
+    "message": "fix(lanzou): 移除冗余URL重命名和参数处理逻辑",
+    "author": "HurryWang",
+    "date": "2025-06-17 15:16:14 +0800"
+  },
+  {
+    "hash": "d28de97",
+    "message": "feat(backend): 优化白名单路由检查及插件下载URL编码",
+    "author": "HurryWang",
+    "date": "2025-06-17 08:04:42 +0800"
+  },
+  {
+    "hash": "ae3873b",
+    "message": "feat(backend): 添加白名单路由及插件下载接口",
+    "author": "HurryWang",
+    "date": "2025-06-16 15:43:09 +0800"
+  },
+  {
+    "hash": "57618e1",
+    "message": "feat(lanzou): 增加插件下载功能及优化解析逻辑解决了超时的bug",
+    "author": "HurryWang",
+    "date": "2025-06-16 14:58:12 +0800"
+  },
+  {
+    "hash": "1374ab0",
+    "message": "feat(deployment): 添加域名白名单并配置Vercel部署",
+    "author": "HurryWang",
+    "date": "2025-06-10 00:18:52 +0800"
+  },
+  {
+    "hash": "ed02140",
+    "message": "feat(deployment): 更新API基础URL并添加FTP自动部署",
+    "author": "HurryWang",
+    "date": "2025-06-09 22:46:05 +0800"
+  },
+  {
+    "hash": "1fdc049",
+    "message": "fix(analytics): 修复MapChart组件uv&pv数据切换不触发重渲染的问题",
+    "author": "HurryWang",
+    "date": "2025-06-09 21:41:09 +0800"
+  },
+  {
+    "hash": "4ceefa2",
+    "message": "feat(analytics): 添加MapChart组件UV/PV切换功能",
+    "author": "HurryWang",
+    "date": "2025-06-06 22:41:25 +0800"
+  },
+  {
+    "hash": "6e9e463",
+    "message": "fix(preview): 修复预览部分无法更新的问题,原因是未解密swf",
+    "author": "HurryWang",
+    "date": "2025-06-06 16:55:15 +0800"
+  },
+  {
+    "hash": "1b1241f",
+    "message": "feat(analytics): 添加屏幕分辨率统计功能",
+    "author": "HurryWang",
+    "date": "2025-06-05 23:42:39 +0800"
+  },
+  {
+    "hash": "b369c1e",
+    "message": "feat(analytics): 添加API调用量统计功能并增加XM邮件订阅更新详情显示",
+    "author": "HurryWang",
+    "date": "2025-06-05 00:08:52 +0800"
+  },
+  {
+    "hash": "d7526f6",
+    "message": "feat(frontend): 添加签名动画组件并优化页面布局和导航配置",
+    "author": "HurryWang",
+    "date": "2025-06-04 15:20:10 +0800"
+  },
+  {
+    "hash": "00db0eb",
+    "message": "feat(preview): 添加下周预告图片查询功能并配置定时同步任务",
+    "author": "HurryWang",
+    "date": "2025-06-03 23:41:12 +0800"
+  },
+  {
+    "hash": "df89029",
+    "message": "feat(announcement): 添加Unity公告查询功能并优化H5公告显示布局",
+    "author": "HurryWang",
+    "date": "2025-06-03 17:49:50 +0800"
+  },
+  {
+    "hash": "93a6e04",
+    "message": "feat(XM): 添加XM系列软件更新信息查询功能",
+    "author": "HurryWang",
+    "date": "2025-06-02 14:55:52 +0800"
+  },
+  {
+    "hash": "a17fd2f",
+    "message": "style(frontend): 更新后台名称为特殊字体样式并优化按钮配色",
+    "author": "HurryWang",
+    "date": "2025-06-01 23:35:04 +0800"
+  },
+  {
+    "hash": "bd6030f",
+    "message": "refactor(frontend): 升级shadcn-vue组件为最新版本, 以解决组件自身存在的控制台警告toRef问题",
+    "author": "HurryWang",
+    "date": "2025-05-31 22:38:07 +0800"
+  },
+  {
+    "hash": "8372a32",
+    "message": "feat(frontend): 更新logo并添加地图组件悬停联动效果",
+    "author": "HurryWang",
+    "date": "2025-05-30 13:40:24 +0800"
+  },
+  {
+    "hash": "a88d7d2",
+    "message": "feat(analytics): 地图组件添加省份访客排行榜显示功能",
+    "author": "HurryWang",
+    "date": "2025-05-30 00:09:35 +0800"
+  },
+  {
+    "hash": "de76bc1",
+    "message": "feat(backend): 添加邮件告警功能并优化错误处理机制",
+    "author": "HurryWang",
+    "date": "2025-05-29 22:40:57 +0800"
+  },
+  {
+    "hash": "8a8c29a",
+    "message": "style: format代码格式",
+    "author": "HurryWang",
+    "date": "2025-05-29 17:38:03 +0800"
+  },
+  {
+    "hash": "ae70b7c",
+    "message": "refactor(admin): 优化用户管理界面布局并增强用户信息展示功能",
+    "author": "HurryWang",
+    "date": "2025-05-29 17:32:18 +0800"
+  },
+  {
+    "hash": "94b4624",
+    "message": "refactor(backend): 修正中间件文件名从checkRule重命名为checkRole",
+    "author": "HurryWang",
+    "date": "2025-05-28 23:52:51 +0800"
+  },
+  {
+    "hash": "9f71433",
+    "message": "refactor(backend): 后台添加用户信息表",
+    "author": "HurryWang",
+    "date": "2025-05-28 23:52:36 +0800"
+  },
+  {
+    "hash": "2976ea9",
+    "message": "refactor(analytics): 统一使用dayjs处理日期范围并优化时区配置",
+    "author": "HurryWang",
+    "date": "2025-05-28 17:28:51 +0800"
+  },
+  {
+    "hash": "8250430",
+    "message": "style(analytics): 优化地图组件样式并调整总数显示位置",
+    "author": "HurryWang",
+    "date": "2025-05-28 17:04:21 +0800"
+  },
+  {
+    "hash": "cbf140b",
+    "message": "feat(analytics): 添加省份地图统计功能并优化认证配置",
+    "author": "HurryWang",
+    "date": "2025-05-28 00:17:15 +0800"
+  },
+  {
+    "hash": "d4462d9",
+    "message": "style(analytics): 优化RankCard组件悬停样式并移除字体加粗效果",
+    "author": "HurryWang",
+    "date": "2025-05-26 22:37:13 +0800"
+  },
+  {
+    "hash": "778c7ac",
+    "message": "refactor(analytics): 重构统计卡片组件，提取RankCard模板组件优化代码复用",
+    "author": "HurryWang",
+    "date": "2025-05-25 23:47:06 +0800"
+  },
+  {
+    "hash": "7169f0f",
+    "message": "feat(analytics): 优化浏览器统计功能，使用正则提取浏览器名称去除版本号",
+    "author": "HurryWang",
+    "date": "2025-05-25 17:38:17 +0800"
+  },
+  {
+    "hash": "f822f1f",
+    "message": "feat(analytics): 添加浏览器和操作系统统计功能及相关UI组件",
+    "author": "HurryWang",
+    "date": "2025-05-25 16:44:40 +0800"
+  },
+  {
+    "hash": "397009f",
+    "message": "feat(ui): 统一自定义鼠标指针样式并优化开源地址弹窗布局",
+    "author": "HurryWang",
+    "date": "2025-05-25 00:29:25 +0800"
+  },
+  {
+    "hash": "a336d7a",
+    "message": "feat(ui): 添加自定义鼠标指针并优化渐变动画效果",
+    "author": "HurryWang",
+    "date": "2025-05-24 00:51:07 +0800"
+  },
+  {
+    "hash": "3f4dd3d",
+    "message": "refactor(home): 重构导航组件代码结构并优化响应式设计",
+    "author": "HurryWang",
+    "date": "2025-05-23 23:14:06 +0800"
+  },
+  {
+    "hash": "d115077",
+    "message": "feat(announcement): 添加官方公告功能及相关路由组件",
+    "author": "HurryWang",
+    "date": "2025-05-23 00:08:27 +0800"
+  },
+  {
+    "hash": "c9bd0ff",
+    "message": "feat(XM): 移除XM系列链接更新警告提示, 已无需定时更新链接",
+    "author": "HurryWang",
+    "date": "2025-05-22 22:10:01 +0800"
+  },
+  {
+    "hash": "2f5d4bf",
+    "message": "feat(ui): 优化滚动条样式并修复页面高度溢出问题",
+    "author": "HurryWang",
+    "date": "2025-05-22 16:24:30 +0800"
+  },
+  {
+    "hash": "859ab78",
+    "message": "chore(gitignore): 添加changelog.json到gitignore并删除旧文件",
+    "author": "HurryWang",
+    "date": "2025-05-22 00:35:45 +0800"
+  },
+  {
+    "hash": "3017df9",
+    "message": "fix(analytics): 修复图表tooltip显示逻辑并优化统计页面UI",
+    "author": "HurryWang",
+    "date": "2025-05-22 00:12:34 +0800"
+  },
+  {
+    "hash": "a9e22dc",
+    "message": "feat(config): 更新VSCode设置、添加域名白名单并优化滚动条样式",
+    "author": "HurryWang",
+    "date": "2025-05-21 23:59:09 +0800"
+  },
+  {
+    "hash": "b16b2bf",
+    "message": "feat(ui): 优化滚动条显示逻辑",
+    "author": "HurryWang",
+    "date": "2025-05-21 19:54:36 +0800"
+  },
+  {
+    "hash": "5cd4f84",
+    "message": "feat(user): 优化头像选择器UI并增强移动端适配",
+    "author": "HurryWang",
+    "date": "2025-05-21 15:55:18 +0800"
+  },
+  {
+    "hash": "4613e69",
+    "message": "feat(home): 优化移动端UI适配并修复外部链接打开方式",
+    "author": "HurryWang",
+    "date": "2025-05-21 15:26:57 +0800"
+  },
+  {
+    "hash": "682c9c6",
+    "message": "feat(support): 添加赞赏功能和二维码展示组件",
+    "author": "HurryWang",
+    "date": "2025-05-20 16:17:02 +0800"
+  },
+  {
+    "hash": "d1c41b3",
+    "message": "fix(home): 修复routerPush函数参数存在默认值导致的逆天bug",
+    "author": "HurryWang",
+    "date": "2025-05-20 15:46:24 +0800"
+  },
+  {
+    "hash": "da3c2e9",
+    "message": "feat(home): 添加QQ群入口和TO系列、好友送星外部链接",
+    "author": "HurryWang",
+    "date": "2025-05-19 12:49:49 +0800"
+  },
+  {
+    "hash": "3b7ae5b",
+    "message": "feat(analytics): 为Pages和Referers卡片添加日期范围选择器",
+    "author": "HurryWang",
+    "date": "2025-05-18 23:10:33 +0800"
+  },
+  {
+    "hash": "3580a0a",
+    "message": "feat(security): 将KEY移至环境变量并优化referer显示与服务器状态提示",
+    "author": "HurryWang",
+    "date": "2025-05-17 00:05:21 +0800"
+  },
+  {
+    "hash": "512ca31",
+    "message": "fix(xm): 修复邮件发送条件判断逻辑并保留原始数据用于同步",
+    "author": "HurryWang",
+    "date": "2025-05-16 09:57:11 +0800"
+  },
+  {
+    "hash": "954031f",
+    "message": "fix(xm): 优化URL处理逻辑并添加时效性警告提示",
+    "author": "HurryWang",
+    "date": "2025-05-16 00:44:18 +0800"
+  },
+  {
+    "hash": "3fee9b7",
+    "message": "fix(xm): 修复xm的URL中webpage参数变化导致的定时任务持续更新的bug",
+    "author": "HurryWang",
+    "date": "2025-05-16 00:12:28 +0800"
+  },
+  {
+    "hash": "6fe199b",
+    "message": "feat(xm): 新增XM Seer系列软件下载功能和后端同步任务",
+    "author": "HurryWang",
+    "date": "2025-05-15 23:41:23 +0800"
+  },
+  {
+    "hash": "6d3b2a8",
+    "message": "fix(statistic): 修改默认日期范围为当天并优化Pages和Referers卡片样式",
+    "author": "HurryWang",
+    "date": "2025-05-15 15:24:56 +0800"
+  },
+  {
+    "hash": "8f08583",
+    "message": "feat(statistic): 新增pages和referer接口和前端对应card",
+    "author": "HurryWang",
+    "date": "2025-05-15 00:08:15 +0800"
+  },
+  {
+    "hash": "bb2fbe6",
+    "message": "feat(userCenter): 用户中心新增头像更换功能",
+    "author": "HurryWang",
+    "date": "2025-05-14 15:47:13 +0800"
+  },
+  {
+    "hash": "9654a3d",
+    "message": "fix(dialog): 修复手动触发Dialog组件遮罩变纯黑的bug",
+    "author": "HurryWang",
+    "date": "2025-05-13 23:37:46 +0800"
+  },
+  {
+    "hash": "0db20ce",
+    "message": "style: format格式",
+    "author": "HurryWang",
+    "date": "2025-05-13 23:04:28 +0800"
+  },
+  {
+    "hash": "90b3bf9",
+    "message": "fix: 使用dayjs修复时区问题, 保持时区一致性",
+    "author": "HurryWang",
+    "date": "2025-05-12 22:20:20 +0800"
+  },
+  {
+    "hash": "3831d3d",
+    "message": "feat: 后台echarts图添加Date Picker",
+    "author": "HurryWang",
+    "date": "2025-05-12 18:22:29 +0800"
+  },
+  {
+    "hash": "fc0e384",
+    "message": "feat: 后台数据统计看板新增Date Picker",
+    "author": "HurryWang",
+    "date": "2025-05-12 17:37:04 +0800"
+  },
+  {
+    "hash": "9113f56",
+    "message": "chore: echarts单独打包",
+    "author": "HurryWang",
+    "date": "2025-05-12 17:36:28 +0800"
+  },
+  {
+    "hash": "ee226a8",
+    "message": "style(dash): 内容被截断时显示Popover",
+    "author": "HurryWang",
+    "date": "2025-05-12 00:03:38 +0800"
+  },
+  {
+    "hash": "431f2dc",
+    "message": "style(dash): 后台看板样式美化和组件拆分",
+    "author": "HurryWang",
+    "date": "2025-05-11 23:44:32 +0800"
+  },
+  {
+    "hash": "3bd3349",
+    "message": "fix(apiLog): 过滤不需要的apiPath",
+    "author": "HurryWang",
+    "date": "2025-05-11 00:28:36 +0800"
+  },
+  {
+    "hash": "29ad778",
+    "message": "feat(statistic): 新增后台数据统计看板",
+    "author": "HurryWang",
+    "date": "2025-05-11 00:16:30 +0800"
+  },
+  {
+    "hash": "3fca252",
+    "message": "feat: 添加Referer白名单",
+    "author": "HurryWang",
+    "date": "2025-05-10 00:02:12 +0800"
+  },
+  {
+    "hash": "2aac3b4",
+    "message": "feat(log): 新增日志存储入库",
+    "author": "HurryWang",
+    "date": "2025-05-09 13:58:26 +0800"
+  },
+  {
+    "hash": "63200e1",
+    "message": "fix(log): 引入dayjs库解决时区bug",
+    "author": "HurryWang",
+    "date": "2025-05-09 13:26:14 +0800"
+  },
+  {
+    "hash": "d5c8918",
+    "message": "fix(log): 修复后台日志输出没有正确忽略指定路径的bug",
+    "author": "HurryWang",
+    "date": "2025-05-08 23:32:08 +0800"
+  },
+  {
+    "hash": "9618d33",
+    "message": "fix(statistic): 修复并优化数据上报接口相关内容",
+    "author": "HurryWang",
+    "date": "2025-05-08 23:09:14 +0800"
+  },
+  {
+    "hash": "8c2bce3",
+    "message": "style:(download): 添加云端下载失败提示",
+    "author": "HurryWang",
+    "date": "2025-05-08 23:08:31 +0800"
+  },
+  {
+    "hash": "b87004a",
+    "message": "feat(statistic): 新增数据统计上报接口, 优化后台日志打印格式 ,更加清晰.",
+    "author": "HurryWang",
+    "date": "2025-05-08 19:09:46 +0800"
+  },
+  {
+    "hash": "f087ecd",
+    "message": "style(Badge): 美化首页样式, 添加Hot徽章",
+    "author": "HurryWang",
+    "date": "2025-05-07 17:27:29 +0800"
+  },
+  {
+    "hash": "3c09141",
+    "message": "style(online): 美化玩家在线状态查询部分的样式",
+    "author": "HurryWang",
+    "date": "2025-05-06 23:30:16 +0800"
+  },
+  {
+    "hash": "4e20771",
+    "message": "feat(command): 指令中心支持邮件订阅 style(gitLog): 更新日志页面样式美化, 时间显示到分钟, 用户中心头像更换为雷伊",
+    "author": "HurryWang",
+    "date": "2025-05-06 21:56:42 +0800"
+  },
+  {
+    "hash": "3054b82",
+    "message": "fix(online): 玩家在线状态查询限速, 限制每个 IP 每3秒访问1次",
+    "author": "HurryWang",
+    "date": "2025-05-05 22:20:40 +0800"
+  },
+  {
+    "hash": "784de28",
+    "message": "feat(gitLog): 前端新增显示git提交日志",
+    "author": "HurryWang",
+    "date": "2025-05-04 23:02:08 +0800"
+  },
+  {
+    "hash": "479568f",
+    "message": "fix(core): 修复无法获取重聚登录器更新信息的问题",
+    "author": "HurryWang",
+    "date": "2025-05-04 21:59:16 +0800"
+  },
+  {
+    "hash": "b1381a6",
+    "message": "chore: 修改vite打包目录",
+    "author": "HurryWang",
+    "date": "2025-04-30 22:15:50 +0800"
+  },
+  {
+    "hash": "426dfcc",
+    "message": "更改github actions部署方式为SCP",
+    "author": "HurryWang",
+    "date": "2025-04-30 21:50:22 +0800"
+  },
+  {
+    "hash": "ed12f41",
+    "message": "feat: 重聚和雷小伊排序修改为按照时间倒叙显示, 前端首页模板的字体更正",
+    "author": "HurryWang",
+    "date": "2025-04-30 18:29:21 +0800"
+  },
+  {
+    "hash": "9068341",
+    "message": "chore: 添加github actions自动部署前端到服务器",
+    "author": "HurryWang",
+    "date": "2025-04-30 18:13:41 +0800"
+  },
+  {
+    "hash": "2a5b9fd",
+    "message": "fix(cj): 修复无法识别的时间格式: 前天04:04报错的问题",
+    "author": "yuyuqaq",
+    "date": "2025-04-30 16:16:41 +0800"
+  },
+  {
+    "hash": "ee9d276",
+    "message": "fix(cjJob): 修复重聚定时任务被错误注释的问题",
+    "author": "yuyuqaq",
+    "date": "2025-04-29 23:24:39 +0800"
+  },
+  {
+    "hash": "f59a671",
+    "message": "feat: 蓝奏云时间格式化, 统一为YYYY-MM-dd HH:mm格式",
+    "author": "yuyuqaq",
+    "date": "2025-04-29 23:06:23 +0800"
+  },
+  {
+    "hash": "9927730",
+    "message": "style: 引入鸿蒙字体",
+    "author": "yuyuqaq",
+    "date": "2025-04-29 15:41:19 +0800"
+  },
+  {
+    "hash": "c1957fe",
+    "message": "feat: 新增通过输入米米号查询玩家在线状态",
+    "author": "yuyuqaq",
+    "date": "2025-04-28 23:06:00 +0800"
+  },
+  {
+    "hash": "b7c7de3",
+    "message": "style(Pagination): 美化分页组件的样式",
+    "author": "yuyuqaq",
+    "date": "2025-04-28 00:19:10 +0800"
+  },
+  {
+    "hash": "a5fb445",
+    "message": "chore(vite.config.js):将体积较大的图片预览库单独拆分出去打包, 减少index.js的体积",
+    "author": "yuyuqaq",
+    "date": "2025-04-27 00:17:47 +0800"
+  },
+  {
+    "hash": "1708d80",
+    "message": "feat(Bilibili.vue): 新增封面及封面点击预览",
+    "author": "yuyuqaq",
+    "date": "2025-04-27 00:06:57 +0800"
+  },
+  {
+    "hash": "c2a6a3c",
+    "message": "feat(Pagination.vue): 分页组件新增pageSize选择框和总数显示",
+    "author": "yuyuqaq",
+    "date": "2025-04-26 00:23:02 +0800"
+  },
+  {
+    "hash": "db151f8",
+    "message": "refactor(Pagination.vue): 抽离分页逻辑为独立组件，提升复用性.",
+    "author": "yuyuqaq",
+    "date": "2025-04-25 18:14:45 +0800"
+  },
+  {
+    "hash": "6e05cce",
+    "message": "feat: 插件中心和指令中心新增分页查询功能",
+    "author": "yuyuqaq",
+    "date": "2025-04-25 00:06:28 +0800"
+  },
+  {
+    "hash": "2868d99",
+    "message": "style: 美化了若干样式",
+    "author": "yuyuqaq",
+    "date": "2025-04-23 23:29:45 +0800"
+  },
+  {
+    "hash": "35c3b3a",
+    "message": "fix(sendSubEmail): 修复邮件并发时发送失败问题",
+    "author": "yuyuqaq",
+    "date": "2025-04-23 13:07:59 +0800"
+  },
+  {
+    "hash": "73a924d",
+    "message": "style(HomeView.vue): 首页美化样式",
+    "author": "yuyuqaq",
+    "date": "2025-04-22 23:32:48 +0800"
+  },
+  {
+    "hash": "b874551",
+    "message": "fixed(PlugenCenter.vue):修复移动端无法显示更新内容卡片的问题",
+    "author": "yuyuqaq",
+    "date": "2025-04-22 14:40:46 +0800"
+  },
+  {
+    "hash": "e63c0d0",
+    "message": "feat(Server.vue):支持查询h5是否开服",
+    "author": "yuyuqaq",
+    "date": "2025-04-21 23:45:03 +0800"
+  },
+  {
+    "hash": "8e3cfd6",
+    "message": "feat: 适配指令中心模块 style(home): 优化首页布局，提高页面整洁性与用户体验",
+    "author": "yuyuqaq",
+    "date": "2025-04-21 14:58:23 +0800"
+  },
+  {
+    "hash": "c768e7f",
+    "message": "邮件订阅支持显示更新具体内容",
+    "author": "yuyuqaq",
+    "date": "2025-04-20 22:50:21 +0800"
+  },
+  {
+    "hash": "0d2db1d",
+    "message": "新增检测重聚更新内容文本中是否有网址，如果有则将网址包裹在 <a> 标签中</a>",
+    "author": "yuyuqaq",
+    "date": "2025-04-19 23:29:31 +0800"
+  },
+  {
+    "hash": "ae0d1f8",
+    "message": "更改环境变量可见性",
+    "author": "yuyuqaq",
+    "date": "2025-04-19 23:01:19 +0800"
+  },
+  {
+    "hash": "1e854c4",
+    "message": "修复",
+    "author": "yuyuqaq",
+    "date": "2025-04-19 22:50:26 +0800"
+  },
+  {
+    "hash": "c936e56",
+    "message": "支持解析重聚更新信息",
+    "author": "yuyuqaq",
+    "date": "2025-04-19 22:24:33 +0800"
+  },
+  {
+    "hash": "c31b14a",
+    "message": "auth/AuthTemplate.vue  添加返回首页按钮",
+    "author": "yuyuqaq",
+    "date": "2025-04-18 14:00:24 +0800"
+  },
+  {
+    "hash": "f114cc8",
+    "message": "seo增强",
+    "author": "yuyuqaq",
+    "date": "2025-04-18 13:28:20 +0800"
+  },
+  {
+    "hash": "ed9d527",
+    "message": "添加meta标签, 优化细节",
+    "author": "yuyuqaq",
+    "date": "2025-04-17 23:11:41 +0800"
+  },
+  {
+    "hash": "d3386f7",
+    "message": "添加利于seo的meta标签, 细节优化",
+    "author": "yuyuqaq",
+    "date": "2025-04-15 23:05:57 +0800"
+  },
+  {
+    "hash": "22d6db6",
+    "message": "美化细节",
+    "author": "yuyuqaq",
+    "date": "2025-04-15 23:05:57 +0800"
+  },
+  {
+    "hash": "5a60653",
+    "message": "新增云端直链下载文件",
+    "author": "yuyuqaq",
+    "date": "2025-04-14 23:30:00 +0800"
+  },
+  {
+    "hash": "9e90c45",
+    "message": "使用wrangler快速将前端静态页面部署到cloudflare pages上",
+    "author": "yuyuqaq",
+    "date": "2025-04-14 16:35:35 +0800"
+  },
+  {
+    "hash": "9bbbfef",
+    "message": "优化了一些细节",
+    "author": "yuyuqaq",
+    "date": "2025-04-13 22:52:04 +0800"
+  },
+  {
+    "hash": "9dcc33d",
+    "message": "美化部分前端页面",
+    "author": "yuyuqaq",
+    "date": "2025-04-12 22:38:33 +0800"
+  },
+  {
+    "hash": "1c16738",
+    "message": "更新依赖",
+    "author": "yuyuqaq",
+    "date": "2025-04-12 21:55:39 +0800"
+  },
+  {
+    "hash": "af4bba1",
+    "message": "重磅更新：支持邮箱订阅",
+    "author": "yuyuqaq",
+    "date": "2025-04-12 16:43:47 +0800"
+  },
+  {
+    "hash": "14f0872",
+    "message": "问题修复",
+    "author": "yuyuqaq",
+    "date": "2025-04-07 15:53:26 +0800"
+  },
+  {
+    "hash": "5faa603",
+    "message": "修正一个小bug",
+    "author": "yuyuqaq",
+    "date": "2025-04-06 21:02:06 +0800"
+  },
+  {
+    "hash": "36296f6",
+    "message": "添加开源网址",
+    "author": "yuyuqaq",
+    "date": "2025-04-06 16:51:51 +0800"
+  },
+  {
+    "hash": "efbe66c",
+    "message": "首次提交",
+    "author": "yuyuqaq",
+    "date": "2025-04-06 14:58:53 +0800"
+  }
+]
