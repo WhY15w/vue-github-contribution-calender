@@ -1,8 +1,9 @@
 # Vue GitHub Contribution Calendar | Vue GitHub 贡献日历
 
 <div align="center">
-  <h3>🎯 一个基于 Vue 3 的 GitHub 风格贡献日历组件</h3>
+  <h3>🎯 一个基于 Vue 3 和 Tailwind CSS 4 的 GitHub 风格贡献日历组件</h3>
   <p>A Vue 3 based GitHub-style contribution calendar component</p>
+  <p style="font-size: 16px; color: #ccc; font-weight: bold;">本项目为赛尔号信息聚合页子功能的衍生项目</p>
 </div>
 
 ## 样式 | Preview
